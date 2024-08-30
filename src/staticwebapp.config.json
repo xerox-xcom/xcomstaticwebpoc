@@ -1,0 +1,16 @@
+{
+    "trailingSlash": "auto",
+    "routes": [],
+    "navigationFallback": {
+        "rewrite": "index.html"
+    },
+    "responseOverrides": {
+        "404": {
+            "redirect": "https://www.xerox.com/404.html",
+            "statusCode": 302
+        }
+    },
+    "globalHeaders": {},
+    "mimeTypes": {}
+}
+
